@@ -10,11 +10,7 @@ const ContactMe = () => {
       <div className="h-full w-full grid grid-cols-2 gap-4 max-sm:gap-2 a">
         <div className=" max-sm:col-span-2  ">
           <div className="text-white flex  flex-col gap-5 ">
-            <form
-              action=""
-              className="flex items-center justify-center min-h-screen"
-              
-            >
+            <form className="flex items-center justify-center min-h-screen">
               <div className="bg-transparent p-8 border overflow-hidden rounded-lg shadow-lg border-[#2A0E61] w-full max-w-md">
                 <div className="mb-4">
                   <label htmlFor="name" className="text-gray-300">
@@ -43,7 +39,6 @@ const ContactMe = () => {
                   <textarea
                     id="message"
                     className="w-full bg-transparent border border-[#2A0E61] text-white"
-                    
                   ></textarea>
                 </div>
                 <div className="mb-4">
