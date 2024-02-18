@@ -22,7 +22,7 @@ const AboutMe = () => {
       >
         <div className=" h-full w-1/2  flex items-center justify-center">
           <Image
-            src="/me.png"
+            src="/Me.png"
             height={500}
             width={500}
             alt="hero img"
