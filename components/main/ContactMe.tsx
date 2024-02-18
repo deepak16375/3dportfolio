@@ -13,9 +13,7 @@ const ContactMe = () => {
             <form
               action=""
               className="flex items-center justify-center min-h-screen"
-              onSubmit={(e) => {
-                e.preventDefault();
-              }}
+              
             >
               <div className="bg-transparent p-8 border overflow-hidden rounded-lg shadow-lg border-[#2A0E61] w-full max-w-md">
                 <div className="mb-4">
