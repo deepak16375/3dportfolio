@@ -1,5 +1,5 @@
 "use client";
-import React, { useState} from "react";
+import React, { useState } from "react";
 
 export default function hover3d(ref, { x = 0, y = 0, z = 0 }) {
   const [coords, setCoords] = useState({ x: 0, y: 0 });
@@ -9,10 +9,10 @@ export default function hover3d(ref, { x = 0, y = 0, z = 0 }) {
     const { offsetWidth: width, offsetHeight: height } = ref.current;
     const { clientX, clientY } = e;
 
-    const x = (clientX - width / 2) / width;
-    const y = (clientY - height / 2) / height;
+    const xCoord = (clientX - width / 2) / width;
+    const yCoord = (clientY - height / 2) / height;
 
-    setCoords({ x, y });
+    setCoords({ x: xCoord, y: yCoord });
   };
 
   const handleMouseEnter = () => {
