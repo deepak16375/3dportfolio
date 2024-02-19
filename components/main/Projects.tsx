@@ -16,7 +16,7 @@ const Projects = () => {
           title="Bright Pathways (Website on Social Impact)"
           description=" Developed and managed Bright Pathways, a web platform connecting users with essential services like old age homes, special schools, and adoption centers."
           gitRepoLink="https://github.com/sajalbatra/BrightPathways"
-          liveLink="https://bright-pathways-demo.com"
+          liveLink="https://bright-pathways-frontend.vercel.app/"
         />
         <ProjectCard
           src="/asl.png"
