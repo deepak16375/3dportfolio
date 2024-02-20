@@ -2,7 +2,6 @@ import AboutMe from "@/components/main/AboutMe";
 import ContactMe from "@/components/main/ContactMe";
 import Cursor from "@/components/main/Cursor";
 import Encryption from "@/components/main/Encryption";
-import Footer from "@/components/main/Footer";
 import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
