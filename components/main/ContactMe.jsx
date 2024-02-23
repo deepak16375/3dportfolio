@@ -76,7 +76,7 @@ const ContactMe = () => {
                     Email:
                   </label>
                   <input
-                    type="text"
+                    type="email"
                     id="email"
                     name="user_email"
                     className="w-full bg-transparent border-b border-[#2A0E61] text-white"
