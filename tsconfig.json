@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/main/Cursor.jsx", "components/main/SoundPlayer.jsx", "components/main/Navbar.tsx", "components/main/Shapes.jsx", "components/main/AvatarCanvas.jsx", "components/main/ContactMe.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/main/Cursor.jsx", "components/main/SoundPlayer.jsx", "components/main/Navbar.tsx", "components/main/Shapes.jsx", "components/main/AvatarCanvas.jsx", "components/main/ContactMe.jsx", "components/sub/itemLayout.tsx"],
   "exclude": ["node_modules"]
 }
