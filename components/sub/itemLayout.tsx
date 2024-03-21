@@ -16,7 +16,7 @@ const ItemLayout: React.FC<ItemLayoutProps> = ({ children, className }) => {
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
       className={clsx(
-        "p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8 border border-white",
+        "p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8 border",
         className
       )}
     >
