@@ -21,9 +21,9 @@ const AboutMe = () => {
         viewport={{ once: true }}
         className="w-full flex flex-col justify-center items-center gap-4 md:gap-10"
       >
-        <div className="w-full md:w-1/2 flex items-center justify-center">
+        <div className="w-full md:w-1/2 flex items-center justify-center rounded-full ">
           <Image
-            src="/Me.png"
+            src="/Me.jpg"
             height={500}
             width={500}
             alt="hero img"
